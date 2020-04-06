@@ -1,0 +1,54 @@
+body{
+    background-color: rgb(44, 44, 37) ;
+    color: white;
+    font-family: "Montserrat" ;
+    margin: 0%;
+}
+#container{
+    margin: 20px auto;
+    width: 50%;
+    max-width: 500px;
+}
+.square {
+    background: blue;
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 1.5%;
+    float: left;
+    border-radius: 20px;
+    transition: background 0.5s;
+}
+#stripe{
+    background: white;
+    text-align: center;
+}
+#message{
+    color: black;
+    display: inline-block;
+    width: 20%;
+}
+.gamemode{
+    background: rgb(78, 161, 55);
+}
+h1{
+    background: rgb(78, 161, 55);
+    padding: 20px 0px;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+    margin: 0px;
+}
+#colordisplay{
+    font-size: 150%;
+}
+button{
+    border: none;
+    background: none;
+    font-weight: 600;
+    height: 100%;
+    transition: all 0.3s;
+    font-size: inherit;
+}
+button:hover{
+    background: rgb(78, 161, 55);
+}
